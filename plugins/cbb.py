@@ -27,7 +27,9 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             pass
     elif data == "buy_prem":
         await query.message.edit_text(
-            text=f"👋 ᴋᴏɴɪᴄʜɪᴡᴀ {query.from_user.username}\n ⛩️ 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 𝗕𝗲𝗻𝗲𝗳𝗶𝘁𝘀 & 𝗣𝗲𝗿𝗸𝘀⛩️ \n 💦 𝗗𝗶𝗿𝗲𝗰𝘁 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗟𝗶𝗻𝗸𝘀, 𝗡𝗼 𝗔𝗱 𝗟𝗶𝗻𝗸𝘀\n 𝗦𝗽𝗲𝗰𝗶𝗮𝗹 𝗔𝗰𝗲𝘀𝘀 𝗧𝗼 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀\n🎖️ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs :\n\n● {PRICE1} rs ғᴏʀ 7 ᴅᴀʏs ᴘʀɪᴍᴇ ᴍᴇᴍʙᴇʀsʜɪᴘ\n\n● {PRICE2} rs ғᴏʀ 1 ᴍᴏɴᴛʜ ᴘʀɪᴍᴇ ᴍᴇᴍʙᴇʀsʜɪᴘ\n\n● {PRICE3} rs For 3 ᴍᴏɴᴛʜs ᴘʀɪᴍᴇ ᴍᴇᴍʙᴇʀsʜɪᴘ\n\n● {PRICE4} rs For 6 ᴍᴏɴᴛʜs ᴘʀɪᴍᴇ ᴍᴇᴍʙᴇʀsʜɪᴘ\n\n● {PRICE5} rs For 1 ʏᴇᴀʀ ᴘʀɪᴍᴇ ᴍᴇᴍʙᴇʀsʜɪᴘ\n\n\n💵 UPI ID -  <code>{UPI_ID}</code>\n\n\n📸ғᴏʀ ʙᴜʏɪɴɢ ᴘʀᴇᴍɪᴜᴍ ᴅᴍ({UPI_IMAGE_URL})\n\n♻️ 𝗛𝘂𝗿𝗿𝘆 𝗨𝗽 𝗔𝗻𝗱 𝗚𝗲𝘁 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 𝗡𝗼𝘄 𝗔𝗻𝗱 𝗘𝗻𝗷𝗼𝘆 𝗟𝗼𝗻𝗲𝗹𝘆 𝗡𝗶𝗴𝗵𝘁 𝗪𝗶𝘁𝗵 𝗨𝘀",
+            text=f"👋 ᴋᴏɴɪᴄʜɪᴡᴀ {query.from_user.username}\n blockquote><b>ᴘʀᴇᴍɪᴜᴍ ʙᴇɴɪғɪᴛs ᴀɴᴅ ᴘʀɪᴄᴇs /n• ᴅɪʀᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ʟɪɴᴋs /n• ɴᴏ ᴀᴅ ʟɪɴᴋs /n • sᴘᴇᴄɪᴀʟ ᴀᴄᴄᴇss ɪɴ ᴇᴠᴇɴᴛs</blockquote> \n \n🎖️  blockquote><b>ᴘʀᴇᴍɪᴜᴍ ʙᴇɴɪғɪᴛs ᴀɴᴅ ᴘʀɪᴄᴇs</blockquote>ᴘʀɪᴄɪɴɢ ʀᴀᴛᴇs:\n\n● {PRICE1} rs ғᴏʀ 7 ᴅᴀʏs ᴘʀɪᴍᴇ ᴍᴇᴍʙᴇʀsʜɪᴘ\n\n● {PRICE2} rs ғᴏʀ 1 ᴍᴏɴᴛʜ ᴘʀɪᴍᴇ ᴍᴇᴍʙᴇʀsʜɪᴘ\n\n● {PRICE3} rs For 3 ᴍᴏɴᴛʜs ᴘʀɪᴍᴇ ᴍᴇᴍʙᴇʀsʜɪᴘ\n\n● {PRICE4} rs For 6 ᴍᴏɴᴛʜs ᴘʀɪᴍᴇ ᴍᴇᴍʙᴇʀsʜɪᴘ\n\n● {PRICE5} rs For 1 ʏᴇᴀʀ ᴘʀɪᴍᴇ ᴍᴇᴍʙᴇʀsʜɪᴘ\n blockquote><b>𝚅𝙸𝙿 / ʙᴇɴɪғɪᴛs
+ɴᴏ ʟɪɴᴋ ꜱʜᴏʀᴛᴇɴᴇʀ – ᴅɪʀᴇᴄᴛ ʟɪɴᴋꜱ, ɴᴏ ᴀᴅꜱ /n • ᴘʀᴇᴍɪᴜᴍ ʀᴇQᴜᴇꜱᴛꜱ – ʀᴇQᴜᴇꜱᴛ ᴄᴏɴᴛᴇɴᴛ ᴀɴʏᴛɪᴍᴇ /n • ᴏɴᴇ ᴍᴇᴍʙᴇʀꜱʜɪᴘ – ᴀᴄᴄᴇꜱꜱ ᴀʟʟ ᴄʜᴀɴɴᴇʟꜱ /n • Qᴜɪᴄᴋ ᴀᴄᴄᴇꜱꜱ – ɪɴꜱᴛᴀɴᴛ ᴄᴏɴᴛᴇɴᴛ ᴏɴ ᴄʟɪᴄᴋ /n • ꜰᴀꜱᴛᴇʀ ᴜᴘʟᴏᴀᴅꜱ – ᴘʀɪᴏʀɪᴛʏ ᴄᴏɴᴛᴇɴᴛ ᴅᴇʟɪᴠᴇʀʏ</blockquote>\n♻️ ᴡᴀɴᴛ ᴛᴏ ʙᴜʏ? 
+ғᴏʀ ᴘᴀʏᴍᴇɴᴛ ᴅᴍ @Ayanakaji /n blockquote><b>ᴡᴇ ʜᴀᴠᴇ ʟɪᴍɪᴛᴇᴅ sᴇᴀᴛs ғᴏʀ ᴘʀɪᴍᴇ ᴜsᴇʀs</blockquote>",
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup(
                 [   
